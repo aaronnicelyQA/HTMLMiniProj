@@ -1,0 +1,17 @@
+p{
+
+    color: brown;
+    text-align: center;
+}
+
+
+ Descendant selector all descendants
+
+ol li {
+    
+    color: chartreuse;
+
+}
+
+p em {color: blue;}
+

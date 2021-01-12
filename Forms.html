@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Forms</h1>
+    <p> Gets user informationto use and store it and sends to a server for and processes it</p>
+    <fieldset>
+        <legend>Your details</legend>
+
+
+
+        <!-- Get appends the info to the URL -->
+        <!-- Post does not append the info to the URL and passes it securely -->
+        <form method="GET" action="">
+            <div class="form-floating">
+
+            <label>Enter your full name: </label>
+            <input type="text" id="username" name="name" placeholder="Enter name:" required />
+        </div>
+            <br>
+
+            <label>Enter your email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" />
+            <br>
+            <label>Enter your password:</label>
+            <input type="password" id="password" name="password" />
+            <label>Gender:</label>
+
+            <select id="gender" name="gender">
+
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer not to say</option>
+            </select>
+
+
+            <label> Are you feeling lucky? </label>
+            <input type="checkbox" input type="button" value="submit" />
+            <button type="submit">submit</button>
+    </fieldset>
+    </form>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
